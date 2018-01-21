@@ -1,0 +1,32 @@
+node -js
+-------------
+
+1. events & emitter
+-------------------
+
+2 separate kind of events:
+
+    1. system events (C++ from libuv)
+    2. custom events (js core -> event emitter)
+
+
+
+Express
+-----------
+
+http method
+
+specifies the tiype of action te request whisches to make
+verbs like (GET, POST, DELETE)
+
+
+    add to package.json if you want to run nodaemon locally
+
+    "scripts": {
+        "serve": "nodemon server.js"
+    },
+
+    -> npm run serve
+
+middleware:
+sitting in between the request an response

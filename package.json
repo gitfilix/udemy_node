@@ -1,0 +1,25 @@
+{
+  "name": "udemy_node_app",
+  "version": "1.0.0",
+  "description": "Filix testing node server shissli",
+  "main": "app_expr.js",
+  "dependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "serve": "nodemon app_expr.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitfilix/udemy_node.git"
+  },
+  "author": "filix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitfilix/udemy_node/issues"
+  },
+  "homepage": "https://github.com/gitfilix/udemy_node#readme"
+}
