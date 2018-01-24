@@ -4,6 +4,7 @@
   "description": "Filix testing node server shissli",
   "main": "app_expr.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
     "nodemon": "^1.14.11"
   },
