@@ -30,3 +30,12 @@ verbs like (GET, POST, DELETE)
 
 middleware:
 sitting in between the request an response
+
+
+Asynchronous code
+------------------
+in general js is synchronous.
+
+node.js works asynchronous <-> v8 works synchronous!
+
+node.js: Event Driven non-blocking I/O in V8
